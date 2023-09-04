@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-  int a=10,b=15;
+  int a,b;
+  scanf("%d %d",&a,&b);
   a=a+b-(b=a);
   printf("a= %d\nb= %d\n",a,b);
 }
